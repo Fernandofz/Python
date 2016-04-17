@@ -26,6 +26,6 @@ while (cantidad!=0):
 total=C1+C2+C3
 print ""
 print "animal: ",animal
-print "total de 0 a 1 anios: ",(C1/total)*100,"%"
-print "total de 1 a 3 anios: ",(C2/total)*100,"%"
-print "total de mas de 3 anios: ",(C3/total)*100,"%"
+print "total de 0 a 1 anios: ",(float(C1)/total)*100,"%"
+print "total de 1 a 3 anios: ",(float(C2)/total)*100,"%"
+print "total de mas de 3 anios: ",(float(C3)/total)*100,"%"
